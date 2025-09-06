@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Agenz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="img/cropped-cropped-cropped_circle_image-2-150x150.png" alt="Agenz Logo" class="logo-image">
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <a href="contact.html" class="contact-btn">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Projects Hero Section -->
+    <section class="projects-hero">
+        <div class="container">
+            <div class="projects-hero-content">
+                <h1 class="projects-hero-title">Our Portfolio</h1>
+                <p class="projects-hero-description">
+                    Discover our collection of successful digital projects that have transformed businesses and delivered exceptional results. From cutting-edge websites to powerful marketing campaigns, each project showcases our expertise and commitment to excellence.
+                </p>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Projects Delivered</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">3X</span>
+                        <span class="stat-label">Average ROI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="website">Websites</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="website">
+                    <div class="project-image">
+                        <img src="img/Dynamic Website.webp" alt="Dynamic Website Project">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3 class="project-title">TechCorp Dynamic Website</h3>
+                                <p class="project-description">Modern responsive website with advanced animations and CMS integration</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                </div>
+                                <div class="project-actions">
+                                    <button class="project-btn view-btn">View Details</button>
+                                    <button class="project-btn demo-btn">Live Demo</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ecommerce">
+                    <div class="project-image">
+                        <img src="img/E - Commerce Website.webp" alt="E-commerce Website Project">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3 class="project-title">Fashion Hub E-commerce</h3>
+                                <p class="project-description">Complete e-commerce solution with payment gateway and inventory management</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Shopify</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">Stripe</span>
+                                </div>
+                                <div class="project-actions">
+                                    <button class="project-btn view-btn">View Details</button>
+                                    <button class="project-btn demo-btn">Live Demo</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="marketing">
+                    <div class="project-image">
+                        <img src="img/Lead Generation.webp" alt="Lead Generation Project">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3 class="project-title">FinTech Lead Generation</h3>
+                                <p class="project-description">Comprehensive lead generation campaign with 300% ROI improvement</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Google Ads</span>
+                                    <span class="tech-tag">Facebook Ads</span>
+                                    <span class="tech-tag">Analytics</span>
+                                </div>
+                                <div class="project-actions">
+                                    <button class="project-btn view-btn">View Details</button>
+                                    <button class="project-btn demo-btn">Case Study</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="img/Creative Design.webp" alt="Creative Design Project">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3 class="project-title">Brand Identity Design</h3>
+                                <p class="project-description">Complete brand overhaul including logo, website, and marketing materials</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Figma</span>
+                                    <span class="tech-tag">Illustrator</span>
+                                    <span class="tech-tag">Photoshop</span>
+                                </div>
+                                <div class="project-actions">
+                                    <button class="project-btn view-btn">View Details</button>
+                                    <button class="project-btn demo-btn">Portfolio</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Additional Projects -->
+                <div class="project-card" data-category="website">
+                    <div class="project-image">
+                        <img src="img/Dynamic Website.webp" alt="Healthcare Website">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3 class="project-title">HealthCare Platform</h3>
+                                <p class="project-description">Patient management system with appointment booking and telemedicine</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Vue.js</span>
+                                    <span class="tech-tag">Laravel</span>
+                                    <span class="tech-tag">MySQL</span>
+                                </div>
+                                <div class="project-actions">
+                                    <button class="project-btn view-btn">View Details</button>
+                                    <button class="project-btn demo-btn">Live Demo</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="marketing">
+                    <div class="project-image">
+                        <img src="img/Lead Generation.webp" alt="Social Media Campaign">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3 class="project-title">Restaurant Social Campaign</h3>
+                                <p class="project-description">Viral social media campaign increasing followers by 500% in 3 months</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Instagram</span>
+                                    <span class="tech-tag">TikTok</span>
+                                    <span class="tech-tag">Content Strategy</span>
+                                </div>
+                                <div class="project-actions">
+                                    <button class="project-btn view-btn">View Details</button>
+                                    <button class="project-btn demo-btn">Results</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <a href="contact.html" class="cta-button">SCALE YOUR BRAND</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-number">50+</h3>
+                    <p class="stat-label">Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">25+</h3>
+                    <p class="stat-label">Happy Clients</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">3+</h3>
+                    <p class="stat-label">Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Business</h4>
+                        <ul>
+                            <li><a href="projects.html">Project</a></li>
+                            <li><a href="about.html">Our Team</a></li>
+                            <li><a href="contact.html">Contact Now</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Get In Touch</h4>
+                        <div class="footer-contact">
+                            <p>e-234, Chhatarpur, 110074</p>
+                            <p>info@marketforminds.com</p>
+                            <p>+91 98703 86904</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2025 marketformind.com | Powered by marketformind.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <div class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
